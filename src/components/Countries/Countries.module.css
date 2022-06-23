@@ -36,8 +36,35 @@
 @media screen and (max-width: 720px) {
     .container {
         width: 100%;
-        height: 100vh;
+        height: auto;
         margin: 0;
         border: none;
+        position: relative;
+    }
+
+    .header {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        height: 6vh;
+        background-color: #f0f0f0;
+        
+    }
+
+    .header h1 {
+        font-size: 1.3rem;
+    }
+
+    .header p {
+        font-size: .7rem;
+    }
+
+    .scrollContainer {
+        width: 100%;
+        margin-top: 10vh;
+        height: auto;
+        overflow-y: visible;
+        font-size: .8rem;
     }
 }
