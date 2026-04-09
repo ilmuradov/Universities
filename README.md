@@ -1,8 +1,15 @@
-# Universities
+# University Finder App
 
-Follow instructions below to start the application:
-  1. Open terminal
-  2. git clone https://github.com/ilmuradov/Universities.git
-  3. cd Universities
-  4. yarn
-  5. yarn start
+This is a web application that allows users to explore and find information about universities.
+
+## Features
+- Search universities
+- View basic information
+- Simple and user-friendly interface
+
+## Technologies
+- JavaScript
+- HTML, CSS
+
+## Purpose
+This project was built as a personal learning project to improve development skills.
